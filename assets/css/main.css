@@ -1,0 +1,72 @@
+/* 
+    Created on : Jan 4, 2014, 5:37:37 PM
+    Author     : huseyinmert
+*/
+@import url("http://fonts.googleapis.com/css?family=Exo:900");
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+}
+
+/**
+ * Blueprint
+ */
+body {
+    font: 900 1em/1em Exo;
+    text-shadow: 0 0 .5rem rgb(0, 75, 125);
+    color: rgb(255, 255, 255);
+}
+
+h1 { font-size: 60px; margin-top:10px; padding-left: 20px}
+h1, h2, h3 {
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.page {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(0, 100, 150);
+    background-image:
+        radial-gradient(circle, rgba(255, 255, 255, .3), transparent)
+        ,	linear-gradient(rgba(255, 255, 255, .5) 1px, transparent 1px)
+        ,	linear-gradient(90deg, rgba(255, 255, 255, .5) 1px, transparent 1px)
+        ,	linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px)
+        ,	linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
+    background-size:
+        cover
+        ,	5rem 5rem
+        ,	5rem 5rem
+        ,	1rem 1rem
+        ,	1rem 1rem;
+    background-position: 50% 50%;
+    border-bottom: thin solid lightgray;
+}
+
+.page:last-child {
+    border: none;
+    box-shadow: none
+}
+
+#home>div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    margin: -100px 0 0 -200px;
+    text-align: center;
+}
+
+a{color:#fff; letter-spacing: 3px; font-family: arial;}
