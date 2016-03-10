@@ -5,7 +5,7 @@
 
 body,html {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.8;
@@ -18,7 +18,7 @@ body,html {
 }
 
 .panels {
-  background: #fefefe;
+  background: #fff;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -124,7 +124,7 @@ body,html {
   color: white;
 }
 .panels #overview .panel-content {
-  background-color: #efefef;
+  background-color: #fff;
   -webkit-clip-path: circle(0% at 91.5% 75px);
 }
 .panels #overview.active .panel-toggle {
@@ -135,7 +135,7 @@ body,html {
 }
 .panels #overview .left {
   width: 40%;
-  background: url("../siyah_beyaz.png") no-repeat bottom left;
+  background: url("../hmert.png") no-repeat bottom left;
   background-size: contain;
 }
 .panels #overview .right{
