@@ -138,7 +138,3 @@ body,html {
   background: url("../hmert.png") no-repeat bottom left;
   background-size: contain;
 }
-.panels #overview .right{
-  width: 60%;
-  background:  url("../pictogram.png") no-repeat bottom right;
-}
