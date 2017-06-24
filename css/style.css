@@ -83,8 +83,8 @@ body,html {
           transform: translate3d(0, 0, 0);
   vertical-align: top;
 }
-.panels .panel-content .col.left{width: 30%;}
-.panels .panel-content .col.right{width: 70%;}
+.panels .panel-content .col.left{width: 40%;vertical-align: bottom;}
+.panels .panel-content .col.right{width: 60%;}
 .panels .panel-content .col h1 {
   font-weight: 300;
   font-size: 3em;
@@ -132,9 +132,6 @@ body,html {
 }
 .panels #overview.active .panel-content {
   -webkit-clip-path: circle(270% at 91.5% 75px);
-}
-.panels #overview .left {
-  width: 40%;
 }
 .panels #overview .left video{
   vertical-align:bottom;
