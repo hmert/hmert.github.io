@@ -139,4 +139,6 @@ body,html {
 @media only screen and (max-width: 500px) {
   .panels .panel-content .col.left{width: 100%;vertical-align: bottom;}
   .panels .panel-content .col.right{width: 100%;}
+  .panels .panel-content .col{height:50%}
+  .panels .panel-content .col.left video{width:70%;}
 }
