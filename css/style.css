@@ -135,6 +135,7 @@ body,html {
 }
 .panels #overview .left {
   width: 40%;
-  background: url("../hmert.png") no-repeat bottom left;
-  background-size: contain;
+}
+.panels #overview .left video{
+  vertical-align:bottom;
 }
