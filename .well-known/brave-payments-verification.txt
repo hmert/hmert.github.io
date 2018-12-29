@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: hmert.com
+Token: 0bbac76e6814e85bafb294cb495060d8eab657b5fe77107163872eedec8d7a3d
