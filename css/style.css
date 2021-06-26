@@ -96,8 +96,8 @@ body,html {
   display: block;
 }
 .panels .panel-content .col img {
-  max-width: 90%;
-  width: 100%;
+  max-height: 120px;
+  margin: 0 0 -20px;
 }
 .panels .panel-content .col.left {
   -webkit-transform: translate3d(0, 0, 0);
